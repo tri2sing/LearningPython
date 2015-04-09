@@ -1,0 +1,34 @@
+lease 192.168.10.102 {
+starts 2 2012/03/13 10:24:01;
+ends 2 2012/03/20 10:24:01;
+cltt 2 2012/03/13 10:24:01;
+binding state active;
+next binding state free;
+hardware ethernet 90:4c:e5:18:5c:24;
+uid "\001\220L\345\030\\$";
+}
+lease 192.168.10.109 {
+starts 4 2012/03/15 00:44:53;
+ends 4 2012/03/22 00:44:53;
+cltt 4 2012/03/15 00:44:53;
+binding state active;
+next binding state free;
+hardware ethernet 00:24:d7:2b:43:d0;
+uid "\001\000$\327+C\320";
+set ddns-fwd-name = "pc.domain.local.";
+set ddns-txt = "3100bdf5ca9dabd07e5a8ef0ffe4755fc5";
+set ddns-rev-name = "109.10.168.192.in-addr.arpa.";
+client-hostname "pc";
+}
+lease 192.168.10.142 {
+starts 4 2012/03/15 03:34:56;
+ends 4 2012/03/22 03:34:56;
+cltt 4 2012/03/15 03:34:56;
+binding state active;
+next binding state free;
+hardware ethernet 00:0e:35:97:e4:30;
+set ddns-rev-name = "142.10.168.192.in-addr.arpa.";
+set ddns-txt = "00fc80f10784541b93c67f45b46993d112";
+set ddns-fwd-name = "t42.domain.local.";
+client-hostname "t42";
+}
